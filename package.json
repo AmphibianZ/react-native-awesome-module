@@ -66,6 +66,10 @@
     "react": "*",
     "react-native": "*"
   },
+  "dependencies": {
+    "react-native-device-info": "^6.0.4",
+    "react-native-camera": "^3.40.0"
+  },
   "jest": {
     "preset": "react-native",
     "modulePathIgnorePatterns": [
@@ -75,8 +79,6 @@
   },
   "husky": {
     "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-commit": "yarn lint && yarn typescript"
     }
   },
   "commitlint": {
