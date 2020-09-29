@@ -64,11 +64,10 @@
   },
   "peerDependencies": {
     "react": "*",
-    "react-native": "*"
+    "react-native": "*",
+    "react-native-device-info": "^6.0.4"
   },
   "dependencies": {
-    "react-native-device-info": "^6.0.4",
-    "react-native-camera": "^3.40.0"
   },
   "jest": {
     "preset": "react-native",
